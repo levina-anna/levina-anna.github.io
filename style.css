@@ -77,7 +77,6 @@ p {
 	overflow: hidden;
 }
 
-
 #page_header h1 {
 	width: 330px;
 	height: 51px;
@@ -163,11 +162,9 @@ p {
 	padding: 0px 30px;
 }
 
-
 #clearthis_contentbody {
 	clear : both;
 }
-
 
 .content_entry {
 	padding: 23px 0px 0px;
@@ -200,7 +197,6 @@ p {
 /* // content_body */
 
 
-
 /* reviews */
 
 #reviews_box {
@@ -211,7 +207,6 @@ p {
 #reviews {
 	width: 378px;
 }
-
 
 #reviews .content_entry {
 	width: 378px;
@@ -254,10 +249,8 @@ p {
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
-
   display: inline-block;
   margin-top: 4px;
-  
   background-color: #202020;
   color: #d9d9d9;
 }
@@ -267,9 +260,8 @@ p {
   color: #eeeeee;
 }
 
-
 .left{
-	justify-content: left;
+  justify-content: left;
 }
 
 /* // page_footer */
