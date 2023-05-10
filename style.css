@@ -6,14 +6,12 @@
 
 body {
 	cursor: url('cur.cur'), auto;
-
 	background: url(images/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
-
 	padding-top: 35px;
 	background-color: #000;
 	color: #aca9a9;
@@ -60,7 +58,6 @@ p {
 	text-align: left;
 	border: #860b09 2px solid;
 	width:774px;
-	
 	background-color: #040404;
 }
 
@@ -238,21 +235,20 @@ p {
 	margin :0;
 	padding: 0;
 	color:#bb1414;
-
 }
 
 .button {
-  font: bold 11px Arial;
-  text-decoration: none;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-  display: inline-block;
-  margin-top: 4px;
-  background-color: #202020;
-  color: #d9d9d9;
+	font: bold 11px Arial;
+	text-decoration: none;
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+	display: inline-block;
+	margin-top: 4px;
+	background-color: #202020;
+	color: #d9d9d9;
 }
 
 .button:hover {
