@@ -14,8 +14,13 @@ body {
 }
 
 
+h1 {
+	color: #00c497;
+}
+
+
 #container {
-	margin: 0px auto;
+	margin: 40px auto 15px;
 	text-align: left;
 	border: #860b09 2px solid;
 	width:774px;
