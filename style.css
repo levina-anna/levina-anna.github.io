@@ -20,16 +20,6 @@ h1 {
 }
 
 
-a {
-	color: #afafaf;
-	text-decoration: none;
-}
-
-a:hover {
-    color: #00c497;
-}
-
-
 /* Стили для главного контенера */
 #container {
 	margin: 40px auto 15px;
@@ -43,17 +33,17 @@ a:hover {
 	border: 2px dashed #373943;
 	border-radius: 10px;
 	margin: 50px 0px;
-	padding: 20px;
+	padding: 20px 20px 35px;
 }
 
 
 /* Стили для кнопки */
 .custom-button {
+	text-decoration: none;
 	background-color: #2e3038;
     color: #ffffffab;
     padding: 10px 20px;
     font-size: 13px;
-    border: none;
     border-radius: 79px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -74,7 +64,7 @@ a:hover {
 
 /* Стили для списка с классом "styled-list" */
 ul.styled-list {
-	margin: 20px 0;
+	margin: 15px 0px 30px;
     list-style-type: disc;
     padding-left: 20px;
 }
@@ -83,4 +73,19 @@ ul.styled-list {
 ul.styled-list li {
     font-size: 14px;
     margin-bottom: 10px;
+}
+
+
+/* Стили для footer */
+#page_footer {
+	margin-bottom: 40px;
+}
+
+#page_footer a {
+	color: #afafaf;
+	text-decoration: none;
+}
+
+#page_footer a:hover {
+    color: #00c497;
 }
