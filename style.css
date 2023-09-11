@@ -68,5 +68,19 @@ a:hover {
 
 /* Стили для описания работы */
 #content{
+	font-size: 14px;
 	margin: 20px 0;
+}
+
+/* Стили для списка с классом "styled-list" */
+ul.styled-list {
+	margin: 20px 0;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Стили для элементов списка */
+ul.styled-list li {
+    font-size: 14px;
+    margin-bottom: 10px;
 }
