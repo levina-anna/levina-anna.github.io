@@ -20,15 +20,15 @@ h1 {
 }
 
 
-/* Стили для главного контенера */
+/* Стили для главного контейнера */
 #container {
 	margin: 40px auto 15px;
 	text-align: left;
-	width:774px;
+	width: 774px;
 }
 
 
-/* Стили для контенера работы */
+/* Стили для контейнера работы */
 #work_container {
 	border: 2px dashed #373943;
 	border-radius: 10px;
@@ -37,7 +37,7 @@ h1 {
 }
 
 
-/* Стили для кнопки */
+/* Стили для кнопок */
 .custom-button {
 	text-decoration: none;
 	background-color: #2e3038;
@@ -50,7 +50,7 @@ h1 {
 }
 
 
-/* Стили для кнопки при наведении */
+/* Стили для кнопок при наведении */
 .custom-button:hover {
 	background-color: #3c3e48;
 }
@@ -81,11 +81,13 @@ ul.styled-list li {
 	margin-bottom: 40px;
 }
 
+/* Стили для ссылок в footer */
 #page_footer a {
 	color: #afafaf;
 	text-decoration: none;
 }
 
+/* Стили для ссылок в footer при наведении */
 #page_footer a:hover {
     color: #00c497;
 }
