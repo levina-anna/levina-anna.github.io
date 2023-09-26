@@ -1,9 +1,11 @@
+/* Стили для всего */
 * {
 	margin: 0px;
 	padding: 0px;
 }
 
 
+/* Основные стили */
 body {
 	padding-top: 35px;
 	background-image: url(images/bg.jpg);
@@ -14,7 +16,7 @@ body {
 	letter-spacing: 1px;
 }
 
-
+/* Стили для заголовка */
 h1 {
 	color: #00c497;
 }
