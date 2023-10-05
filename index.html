@@ -1,96 +1,90 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html" />
-  <title>Portfolio Anna Levina</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио | Анна Левина</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+    .card {
+      background-color: #333;
+      color: #fff;
+    }
+    .btn-primary {
+      background-color: #000;
+      border-color: #fff;
+    }
+  </style>
 </head>
-
 <body>
-
-<!-- header -->
-<div>
-  <h1>Портфолио | Анна Левина</h1>
-</div>
-<!-- // header -->
-
-
-<!-- container -->
-  <div id="container">
-
-    <!-- work_container -->
-    <div id="work_container">
-      <h2>Famous Cats</h2>
-
-      <div id="content">
-        Этот проект представляет собой веб-приложение на Django, посвященное известным кошкам, которые стали популярными в литературе и кино.
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="project3.jpg" class="card-img-top" alt="Картинка">
+          <div class="card-body">
+            <h5 class="card-title">Famous Cats</h5>
+            <p class="card-text">
+              Веб-приложение на Django, посвященное известным кошкам, которые стали популярными в литературе и кино.
+            </p>
+            <a href="https://github.com/" class="btn btn-primary">Ссылка на GitHub</a>
+          </div>
+        </div>
       </div>
-
-      <h3>Основные функции:</h3>
-
-      <ul class="styled-list">
-        <li>Просмотр списка знаменитых кошек.</li>
-        <li>Просмотр отдельных статей о кошках.</li>
-        <li>Добавление новых статей (требуется авторизация).</li>
-        <li>Регистрация новых пользователей.</li>
-        <li>Авторизация пользователей.</li>
-        <li>Форма обратной связи.</li>
-      </ul>
-
-      <a href="https://github.com/levina-anna/Famous_Cats" target="_blank" class="custom-button">Ссылка на GitHub</a>
-    </div>
-    <!-- // work_container -->
-
-    <!-- work_container -->
-    <div id="work_container">
-      <h2>Учет производства металлов</h2>
-
-      <div id="content">
-        Веб-приложение на Django, для учета производства и потребления 
-        разных типов металлов на металлургическом заводе.
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="project3.jpg" class="card-img-top" alt="Картинка">
+          <div class="card-body">
+            <h5 class="card-title">Учет производства металлов</h5>
+            <p class="card-text">
+              Веб-приложение на Django, для учета производства и потребления 
+              разных типов металлов на металлургическом заводе.
+            </p>
+            <a href="https://github.com/" class="btn btn-primary">Ссылка на GitHub</a>
+          </div>
+        </div>
       </div>
-
-      <h3>Основные функции:</h3>
-
-      <ul class="styled-list">
-        <li>Просмотр результурующей таблицы</li>
-        <li>Добавление новой записи</li>
-        <li>Редактирвоание записей</li>
-        <li>Просмотр графика производства</li>
-        <li>Выборка по датам и по неделям</li>
-        <li>Учет списка контейнеров для операторов</li>
-      </ul>
-
-      <a href="https://github.com/levina-anna/Django_learn" target="_blank" class="custom-button">Ссылка на GitHub</a>
-    </div>
-    <!-- // work_container -->
-
-    <!-- work_container -->
-    <div id="work_container">
-      <h2>Англо-русский словарь</h2>
-
-      <div id="content">
-        Веб-приложение на Django, для изучения английского языка.
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="project3.jpg" class="card-img-top" alt="Картинка">
+          <div class="card-body">
+            <h5 class="card-title">Англо-русский словарь</h5>
+            <p class="card-text">
+              Веб-приложение на Django, для изучения английского языка, с возможностью проходить тесты и добавлять новые слова.
+            </p>
+            <a href="https://github.com/" class="btn btn-primary">Ссылка на GitHub</a>
+          </div>
+        </div>
       </div>
-
-      <h3>Основные функции:</h3>
-
-      <ul class="styled-list">
-        <li>Прохождение теста</li>
-        <li>Добавление новых слов</li>
-      </ul>
-
-      <a href="https://github.com/levina-anna/Django_learn" target="_blank" class="custom-button">Ссылка на GitHub</a>
+            <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="project3.jpg" class="card-img-top" alt="Картинка">
+          <div class="card-body">
+            <h5 class="card-title">excel2mysql</h5>
+            <p class="card-text">
+              Скрипт загружает данные из указанного файла Excel и вставляет их в вашу таблицу MySQL.
+            </p>
+            <a href="https://github.com/" class="btn btn-primary">Ссылка на GitHub</a>
+          </div>
+        </div>
+      </div>
+            <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="project3.jpg" class="card-img-top" alt="Картинка">
+          <div class="card-body">
+            <h5 class="card-title">Админ-панель</h5>
+            <p class="card-text">
+              Веб-приложение на Django, для администраторов.
+            </p>
+            <a href="https://github.com/" class="btn btn-primary">Ссылка на GitHub</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- // work_container -->
-
   </div>
-<!-- // container -->
-
-<!-- footer -->
-  <div id="page_footer"> Anna Levina | <a href="https://github.com/levina-anna">https://github.com/levina-anna</a></div>
-<!-- /footer -->
-
 </body>
 </html>
