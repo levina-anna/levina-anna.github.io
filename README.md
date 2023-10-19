@@ -1,3 +1,3 @@
-# Сайт-портфолио
+# Портфолио
 
 https://levina-anna.github.io/
