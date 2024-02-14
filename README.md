@@ -1,8 +1,8 @@
-# Portfolio
+# My projects
 
-Welcome to my programming portfolio, showcasing my Python and Django projects.
+Welcome to my website, showcasing my Python and Django projects.
 
-## Viewing the Portfolio
+## Viewing
 
-The portfolio is hosted using GitHub Pages. Access it directly through this link: [Portfolio Website](https://levina-anna.github.io/).
+The website is hosted using GitHub Pages. Access it directly through this link: [Website](https://levina-anna.github.io/).
 
