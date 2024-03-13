@@ -1,6 +1,6 @@
 # My projects
 
-Welcome to my website, showcasing my Python and Django projects.
+Welcome to my website, showcasing my projects.
 
 ## Viewing
 
