@@ -1,4 +1,3 @@
 # My projects
 
-Welcome to my website, showcasing my projects.
-Access it directly through this link: [Website](https://levina-anna.github.io/)
+Explore my work at [Website](https://levina-anna.github.io/)
